@@ -1,0 +1,29 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.log
+
+# Rider
+.idea/
+*.sln.iml
+
+# System
+.DS_Store
+Thumbs.db
+
+# Env & DB
+*.db
+*.sqlite
+.env
+secrets.json
+
+# Build output
+publish/
+artifacts/
+
+# Node (если есть фронт)
+node_modules/
+dist/
